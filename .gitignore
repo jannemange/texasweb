@@ -30,6 +30,8 @@ hs_err_pid*
 .project
 .classpath
 .settings/
+.eclipse
+target/
 
 # # CVS
 .cvsignore
