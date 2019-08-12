@@ -23,14 +23,14 @@
 hs_err_pid*
 
 # Intellij
- *.iml
- .idea/
+*.iml
+.idea/
 
 # # Eclipse 
- .project
- .classpath
- .settings/
+.project
+.classpath
+.settings/
 
 # # CVS
- .cvsignore
- CVS/
+.cvsignore
+CVS/
