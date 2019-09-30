@@ -6,8 +6,10 @@ public class Texasweb {
 	
 	public static String getCard() {
 		Card card = deck.pop();
-		return(52-deck.getSize() + " " + card.getRank() + " of " + card.getSuit() + " " + deck.getSize());
-    }
+//		return(52-deck.getSize() + " " + card.getRank() + " of " + card.getSuit() + " " + deck.getSize());
+		return(card.getRank() + " of " + card.getSuit() + " " + deck.getSize());
+
+	}
 
 	public static Boolean ShuffleDeck() {
 		deck.Shuffle();
